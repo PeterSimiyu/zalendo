@@ -24,6 +24,43 @@
             background-color: #333;
             color: #CCC;
         }
+        .title-header{
+          display: flex;
+          margin: 0px auto;
+          background-color: transparent;
+          width:100%;
+        }
+        .title{
+          float: left;
+          margin-left: 10rem;
+          
+        }
+        .main-nav{
+          text-decoration: none;
+          float: right;
+          margin-left: 50rem;
+          
+
+        }
+        .nav-head{
+          text-decoration: none;
+          float: right;
+          font-size: 20px;
+          display: flex;
+        }
+        .nav-head li{
+          padding:0px 1rem;
+          text-decoration: none;
+          list-style: none;
+          
+        }
+        .nav-head li a{
+          text-decoration: none;
+          float: right;
+          border: 2px solid green;
+          padding: 3px 8px;
+          border-radius: 5px;
+        }
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
@@ -36,8 +73,8 @@
             z-index: 9001;
         }
         #trailer-video {
-            width: 100%;
-            height: 100%;
+            width: 200%;
+            height: 200%;
         }
         .movie-tile {
             margin-bottom: 20px;
@@ -108,27 +145,22 @@
     </div>
     
     <!-- Main Page Content -->
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="fresh_tomatoes.html">Home of Kenyan Film</a>
-          </div>
-          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Short Movies</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Full Movies</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Directors</a></li>
-              <li class="nav-item"><a class="nav-link" href="#"> Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
+    <div class="title-header">
+      <div class="title">ZALENDO</div>
+      <div class="main-nav">
+        <ul class="nav-head">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Short Movies</a></li>
+          <li><a href="#">Full Movies</a></li>
+          <li><a href="#">Vines</a></li>
+        </ul>
       </div>
+
     </div>
-    <div class="container">
-      
+    
+    
+<div class="container">  
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="ptj58b7zhHc" data-toggle="modal" data-target="#trailer">
     <img src="https://m.media-amazon.com/images/M/MV5BZTg5M2RlMTUtNDg5Yi00ZWY0LWE1ZjAtYTg0YzU1YTcyMWM2XkEyXkFqcGdeQXVyNzY4MTYxMTc@._V1_.jpg" width="220" height="342">
     <h2>Disconect Movie</h2>
